@@ -1,0 +1,47 @@
+package Day14_MEthodOlusturma;
+
+public class C01_Return {
+    public static void main(String[] args) {
+        //her method biz is yapacak sekilde olusturulur.
+        //Biz methodlarin yaptiklari islem sonuclarinda bize ne döndürdüklerine bakariz.
+
+       // methodlarin islem sonucu verilen parametrelere göre degisecegi icin return kelimesi
+        // daha cok data türünü belirtir.
+        // bize ne return eder ? sorusunun cevabi data türüdür.
+        //
+
+
+
+        String str= "Java kolaydir";
+
+        System.out.println(str.substring(2, 3));
+
+
+        // bazi methodlar görevlerini yaparlar ama bize herhangi bir data türünde
+        // sonuc döndürmezler
+        //bu tur methodlarin return type i void olur ( void = yazdirmadan görevi yapmak)
+
+        str.substring(7);
+        // substring methodu bize String dondurur
+        // 28. satirdaki kid calisir
+        //ve bize "laydir " return eder
+        // ancak donen "laydir" i biz hicbir islem yapamadigimzi icin goremeyiz.
+
+        //bize sonuc return eden bor method kullandigimizda,
+        // sonucu kullanmka icin 2 alternatifimiz var
+        // 1. direk yazdirip konsolda sonucu gorebiliriz.
+        //2. görevde yazdirmamaiz istenmiyorsa;
+        // bir variable a kaydedebiliriz
+        // ilerde kullanilmak üzere
+
+        System.out.println(str.substring(0,str.length() / 2));
+
+        // void --> yapilan hersey o main methodu icinde olup bitiyorsa buna void denir.konsolda yazilacaksa,
+        // return typi void olan methodlar cagrildiginda sadece yazdirma islemi yaparlar
+
+        // return type li method farki---> calissin sonuc döndürmesin.
+        // void olmayan methodlar ise degeri döndürür, biz de o degeri kaydederiz.
+
+
+    }
+}
