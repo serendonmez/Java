@@ -26,7 +26,7 @@ public class C05_Replace {
         System.out.println(str.replaceFirst("a", "A")); // JAva candir
 
         // Kulllanicidan bir metin isteyin
-        // ve metinde varsa ilk rakami yapin
+        // ve metinde varsa ilk rakami * yapin
 
         Scanner scanner= new Scanner(System.in);
         System.out.println("lütfen bir cümle giriniz");

@@ -1,6 +1,6 @@
 package Day16_WhileLoopDoWhileLoop;
 
-public class C02_WhileLoop {
+public class C02_usAlma {
 
 
 

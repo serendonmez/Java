@@ -1,10 +1,10 @@
 package Day16_WhileLoopDoWhileLoop;
 
-import java.util.Scanner;
-
-public class C01_WhileLoop {
+public class C01_StringiTerseCevirmek {
 
     public static void main(String[] args) {
+        //Soru 3- While loop kullanarak verilen bir String’i terse cevirip,
+        //        bu halini bize donduren bir method olusturun.
 
 
 

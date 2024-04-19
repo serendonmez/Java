@@ -1,6 +1,6 @@
 package Day15_MethodOverloading_whileLoop;
 
-public class C01_MethosOverloading {
+public class C01_MethodOverloading {
     public static void main(String[] args) {
 
         String str = "Java Candir";
@@ -26,7 +26,7 @@ public class C01_MethosOverloading {
     //          method'larin SIGNATURE'lari farkli olmalidir
 
     // Method Signature : Method ismi + parametrelerin data turleri ve sayisi
-    // Overloading olmasi icin ismi degistirmememiz gerekiyor,
+    // Overloading olmasi icin ismi degistirmemiz gerekiyor,
     // Signature'i degistirmek icin 3 ihtimalimiz var
     //  - parametre sayisini degistirmek
     //  - data turlerini degistirmek

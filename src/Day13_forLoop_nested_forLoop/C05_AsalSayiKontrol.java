@@ -4,13 +4,14 @@ import java.util.Scanner;
 
 public class C05_AsalSayiKontrol {
     public static void main(String[] args) {
-        //  Kullanicidan pozitif bir tamsayi isteyip, sayinin asal sayi olup olmadigini kontrol edin ve sonucu yazdirin.
+        //  Kullanicidan pozitif bir tamsayi isteyip, sayinin asal sayi olup
+        //  olmadigini kontrol edin ve sonucu yazdirin.
 
         Scanner scanner= new Scanner(System.in);
         System.out.println("Lütfen bi tam sayi giriniz");
         int sayi = scanner.nextInt();
 
-        // sayi asalsa flag yönetimiyla bulabiliriz. else yaparsak bölünen sayisi kadar asaldegil cikar
+        // sayi asalsa flag yönetimiyla bulabiliriz. else yaparsak bölünen sayisi kadar asal degil cikar
         int flag = 20 ;
 
 

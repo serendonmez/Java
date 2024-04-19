@@ -12,6 +12,7 @@ public class C02_methodOverloading {
             asagidaki 3 adimla karar verir
 
             1- signature'i %100 ayni olan method varsa onu calistirir
+            // signatur = methodismi, parametrelerin data türü ve sayisi
             2- signature'i ayni olan method yoksa
                Java casting yaparak kullanabilecegi method arar
             3- Casting ile birden fazla method calisabiliyor ise

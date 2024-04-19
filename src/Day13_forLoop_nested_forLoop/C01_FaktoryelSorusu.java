@@ -26,7 +26,8 @@ public class C01_FaktoryelSorusu {
         System.out.print(sayi+"!= "); // bu taslaktaki gibi yazdirmak icin
                                         //kullanicinin girdigi degerin yaninda
                                    // olmasi gereke ifadeleri kendim yaziyorum.
-                                   //
+
+        
 
 
 

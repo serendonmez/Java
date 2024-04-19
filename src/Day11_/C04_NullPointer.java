@@ -37,7 +37,7 @@ public class C04_NullPointer {
 
         // System.out.println(str3.length()); // NullPointerException bu method calismaz
 
-        // System.out.println(str3.isEmpty()); // NullPointerException
+        // System.out.println(str3.isemptyEmpty()); // NullPointerException
 
         str3 = "Seren";
         System.out.println(str3); // Seren
