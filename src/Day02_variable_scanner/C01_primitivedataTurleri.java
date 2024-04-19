@@ -1,6 +1,4 @@
-package day02_variable_scanner;
-
-import java.util.Locale;
+package Day02_variable_scanner;
 
 public class C01_primitivedataTurleri {
 

@@ -1,7 +1,5 @@
 package Day13_forLoop_nested_forLoop;
 
-import day02_variable_scanner.C03_Scanner_SayininKaresiniAlma;
-
 import java.util.Scanner;
 
 public class C08_NestedForLoop {

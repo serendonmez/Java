@@ -1,4 +1,4 @@
-package day02_variable_scanner;
+package Day02_variable_scanner;
 
 import java.util.Scanner;
 
