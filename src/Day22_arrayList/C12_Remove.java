@@ -9,17 +9,15 @@ public class C12_Remove {
 
         // remove :istenen objeyi siler ver boolean sonuc verir.
 
-        List<String> dugunList= new ArrayList<>(Arrays.asList("Seren","Ilgar","Meltem","Ali"));
+        List<String> a= new ArrayList<>(Arrays.asList("seren","Ilgar","Meltem","Ali"));
 
-        System.out.println(dugunList.remove("Seren")); // [Ilgar, Meltem, Ali]
+        System.out.println(a.remove("seren")); // [Ilgar, Meltem, Ali]
 
-        System.out.println(dugunList.remove(1));
+        System.out.println(a.remove(1));
 
-        System.out.println(dugunList.remove("Seren")); // false ; zaten silmistik ,
+        System.out.println(a.remove("seren")); // false ; zaten silmistik ,
 
-        // Array list eger integer degerlerden olusuyorsa remove methodu silinecek sayiyi
-        // index olarak alir;
-        // bu yüzden silinecek sayiya yeni varable atamak gerekir
+
 
         List<Integer> list = new ArrayList<>(Arrays.asList(1,5,6,8,4));
 

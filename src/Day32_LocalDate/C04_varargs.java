@@ -16,7 +16,7 @@ public class C04_varargs {
 
 
 
-        go("Seda","Selin","Seren");
+        go("Lale","orkide","menekse");
 
 
     }
@@ -42,7 +42,7 @@ public class C04_varargs {
 
        for ( String each:  b ) {
 
-          if (ilkmetin.contains("Seda")){
+          if (ilkmetin.contains("orkide")){
 
 
           }
