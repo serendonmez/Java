@@ -1,7 +1,7 @@
 package Day42_interfaces;
 
-public class F_ChildOfClassandInterfaces extends E_ParentClass
-implements A_ParentInterface01, D_ParenInterface03 {
+public class F_ChildOfClassVeInterfaces extends E_ParentClass
+implements A_ParentInterface01 , D_ParenInterface03{
 
 
     @Override
@@ -14,7 +14,12 @@ implements A_ParentInterface01, D_ParenInterface03 {
         return null;
     }
 
-    /*
+
+
+
+
+
+/*
         birden fazla parent edinen bir class
         parent abstract yapilarda bulunan
         concrete'lestirilmemis tum abstract method'lari
@@ -25,18 +30,21 @@ implements A_ParentInterface01, D_ParenInterface03 {
         implement etme zorunlulugu yoktur
      */
 
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
         // System.out.println(SAYI);
         // Reference to 'SAYI' is ambiguous, both 'E_ParentClass.SAYI' and 'A_ParentInterface01.SAYI' match
 
-        System.out.println(A_ParentInterface01.SAYI); // 10
-        System.out.println(D_ParentInterface03.SAYI); // 20
-        System.out.println(E_ParentClass.SAYI); // 50
+        System.out.println(A_ParentInterface01.SAYI);
+        System.out.println(D_ParenInterface03.SAYI);
+        System.out.println(E_ParentClass.SAYI);
 
-        // A_ParentInterface01.SAYI = 45;
+
+        //A_ParentInterface01.SAYI = 45;
         // Cannot assign a value to final variable 'SAYI'
         // Interface'lerdeki tum variable'lar final oldugundan sonradan deger atanamaz
+
+
 
         E_ParentClass.SAYI = 44;
         System.out.println(E_ParentClass.SAYI); // 44
@@ -48,12 +56,5 @@ implements A_ParentInterface01, D_ParenInterface03 {
          */
 
     }
-
-
-
-
-
-
-
 
 }

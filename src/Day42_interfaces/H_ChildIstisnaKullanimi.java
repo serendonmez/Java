@@ -3,41 +3,86 @@ package Day42_interfaces;
 import java.util.ArrayList;
 import java.util.List;
 
-public interface H_ChildIstisnaKullanimi implements G_InterfacedeBodysiOlanMethodOlurMu{
+public class H_ChildIstisnaKullanimi implements G_InterfacedeBodysiOlanMethodOlurMu{
 
-    public static final int SAYI = 10;
-    public int A = 5;  // Modifier 'public' is redundant for interface members
-    static int B = 13; // Modifier 'static' is redundant for interface fields
-    final int C = 34; // Modifier 'final' is redundant for interface fields
+    @Override
+    public void method1() {
 
-    // bir interface icerisinde olan tum variable'lar
-    // public, static ve final'dir
-    // bu keyword'ler yazilsa da yazilmasa da farketmez
-
-    int D = 23; // yazilmasa da d variable'i final static ve public'dir
-
-    //private int e = 24; // Modifier 'private' not allowed here
-
-    // interface icindeki tum variable'lar final olduklarindan
-    // sonradan degeri degistirilemez
-    // bundan dolayi deger atanmadan variable olusturulmasina izin verilmez
-    // int e;
+    }
 
 
-    // static final variable'lar icin buyuk harf ile isim verilir
+    // parent interface'de
+    // default olarak isaretlenen method3()
+    // ve static olarak isaretlenen method4()
+    // istisnai methodlar oldugu icin IMPLEMENT edilmek ZORUNDA DEGILDIR
 
 
-    public abstract void method1();
-    public void method2(); // Modifier 'public' is redundant for interface members
-    abstract void method3(); // Modifier 'abstract' is redundant for interface methods
 
-    // Interface'de olusturulan method'lar public ve abstract'tir
-    // yazsak da yazmasak da farketmez
 
-    List<Integer> sayilar = new ArrayList<>();
-    // public class ArrayList<E> extends AbstractList<E>
-    //        implements List<E>, RandomAccess, Cloneable, java.io.Serializable
-    // Bir class sadece bir class'a extends edebilir
-    // ANCAK istedigi kadar interface'i IMPLEMENT edebilir
+    public static void main(String[] args) {
+        /*
+            Bir interface'de sonradan eklenecek method'un
+            child class'lar tarafindan implement edilmesini ZORUNLU olmaktan cikarmak icin
+            default veya static keyword'leri kullanilabilir
+
+            bu 2 kelime arasinda method olusturmada HICBIR FARK yoktur
+
+            aralarindaki fark child class'lardan bu method'lara erisim YONTEMINDE'dir
+
+            - static method'a static yontemle yani
+              interfaceAdi.staticMethodAdi(); ulasabiliriz
+
+            - default keyword ile olusturulan method'a ise
+              obje uzerinden ulasabiliriz
+         */
+
+
+        G_InterfacedeBodysiOlanMethodOlurMu.method4();
+
+        // normalde interface de Static abstract method olusturamayyiz.
+        // istisna olarak interface de static body si olan method olusturabiliriz
+        // olusturulan static methodu interface adiyla class ta cagirabiliriz
+
+
+
+
+
+        H_ChildIstisnaKullanimi obj1= new H_ChildIstisnaKullanimi();
+        obj1.method3();
+        // interface de olusturudugumuz istisna (public) default methodlar
+        // interface ya da class data türü ile obj olusturularak cagirilir
+
+        G_InterfacedeBodysiOlanMethodOlurMu obj2 = new H_ChildIstisnaKullanimi();
+        // G interfaceinden kullanmak istedigimiz method default old icin
+        // obj olarak cekeriz
+         obj2.method3();
+
+        List<String> isimler = new ArrayList<>();
+
+        // G_InterfacedeBodysiOlanMethodOlurMu obj10=new G_InterfacedeBodysiOlanMethodOlurMu();
+// interface ile obj olusturulmaz
+        // abstract class ile de obj  olusturulmaz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+
 
 }

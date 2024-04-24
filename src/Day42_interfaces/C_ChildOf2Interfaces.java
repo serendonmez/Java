@@ -1,6 +1,6 @@
 package Day42_interfaces;
 
-public class C_ChildOf2Interfaces implements B_ParentInterface02{
+public class C_ChildOf2Interfaces implements  B_ParentInterface02{
 
 
     // parent'i olan tum abstract yapilardaki

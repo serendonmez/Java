@@ -1,7 +1,8 @@
 package Day42_interfaces;
 
-public class G_InterfacedeBodysiOlanMethodOlurMu {
- /*
+public interface G_InterfacedeBodysiOlanMethodOlurMu {
+
+    /*
         Buyuk bir projede pekcok interface bulunabilir
         bu interface'ler yuzlerce/binlerce class tarafindan implement edilmis olabilir
 
@@ -47,8 +48,5 @@ public class G_InterfacedeBodysiOlanMethodOlurMu {
         // MUTLAKA body'si olmalidir
         System.out.println("Interface icinde static method");
     }
-
-
-
 
 }
