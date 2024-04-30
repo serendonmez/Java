@@ -25,5 +25,9 @@ public class C01_DataCasting_Char {
         System.out.println( "Girlen karakterden  üc sonraki karakter : " +  (char) (girilenKarakter + 3 ));
 
 
+        System.out.println("Girdiginiz karakterden bir sonraki karakter : " + (girilenKarakter+'a'));
+        System.out.println("Girdiginiz karakterden iki sonraki karakter : " +(girilenKarakter+'X'));
+        System.out.println("Girdiginiz karakterden uc sonraki karakter : " + (girilenKarakter+'B'));
+
     }
 }

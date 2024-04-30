@@ -1,5 +1,6 @@
 package Day43_exceptions;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class C04_TekTry2CatchBlogu {
@@ -17,8 +18,19 @@ public class C04_TekTry2CatchBlogu {
 
         System.out.println("Lutfen pozitif bir tamsayi giriniz...");
 
-        int index = scanner.nextInt(); // InputMissmatchException
+        try {
+            int index = scanner.nextInt(); // InputMissmatchException
 
-        System.out.println(str.charAt(index)); // StringIndexOutOfBoundsException
+            System.out.println(str.charAt(index)); // StringIndexOutOfBoundsException
+        } catch (InputMismatchException e) {
+
+            System.out.println("tam sayi giriniz ");
+
+        }catch (StringIndexOutOfBoundsException e){
+
+            System.out.println("girdigniz index metnin sinirlari disinda");
+        }
+
+
     }
 }

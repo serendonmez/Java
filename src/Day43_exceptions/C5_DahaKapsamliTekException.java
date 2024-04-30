@@ -16,9 +16,17 @@ public class C5_DahaKapsamliTekException {
 
         System.out.println("Lutfen pozitif bir tamsayi giriniz...");
 
-        int index = scanner.nextInt(); // InputMissmatchException
+        try {
+            int index = scanner.nextInt(); // InputMissmatchException
 
-        System.out.println(str.charAt(index)); // StringIndexOutOfBoundsException
+            System.out.println(str.charAt(index)); // StringIndexOutOfBoundsException
+        } catch (Exception e) { // runtime Exception da olur
+            // Exception ve RunTimeException daha kapsamli olduklarindan
+            // hem InputMissmatchException'i hem de StringIndexOutOfBounds Exception'i yakalar
+            // ama sorunun hangisinden kaynaklandigini bilemeyiz
+
+            System.out.println("sonuc degeri yazdirmaya uygun degil ");
+        }
 
 
     }

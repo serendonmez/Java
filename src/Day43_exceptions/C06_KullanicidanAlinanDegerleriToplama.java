@@ -8,9 +8,9 @@ public class C06_KullanicidanAlinanDegerleriToplama {
     public static void main(String[] args) {
 
         // Kullanicidan toplanmak uzere sayilar alin
-// kullanici Q veya q girinceye kadar sayi almaya devam edin
-// kullanici Q veya q girdiginde
-// girilen sayi adedini ve sayilarin toplamini yazdirin
+        // kullanici Q veya q girinceye kadar sayi almaya devam edin
+        // kullanici Q veya q girdiginde
+        // girilen sayi adedini ve sayilarin toplamini yazdirin
 
 
 
