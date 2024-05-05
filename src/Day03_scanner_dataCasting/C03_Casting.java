@@ -3,6 +3,8 @@ package Day03_scanner_dataCasting;
 public class C03_Casting {
     public static void main(String[] args) {
 
+        // casting is changing the type of the variable.
+
         char ch1= '$' ;
         byte byt1 = 23 ;
         float flt1 = 45.2F ;
@@ -34,13 +36,21 @@ public class C03_Casting {
          // flt1 = dbl1 ;
         tamsayi = byt1 ;
 
-        // expilicit narrowing : kücük alandakini büyüge alma
+
          flt1 = (float) dbl1 ;
 
          tamsayi = (int) dbl ;
 
          byt1= (byte) tamsayi;
                 byt1 =(byte)flt1;
+
+
+            String h= "123";
+            double u= Double.parseDouble(h);
+        System.out.println(u);
+
+
+
 
 
 

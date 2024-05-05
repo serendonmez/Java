@@ -62,9 +62,4 @@ public class C02_cokluElement_PassByValue {
     }
 
 
-
-
-
-
-
 }

@@ -33,13 +33,5 @@ public class C13_Clear {
         System.out.println(clist); // [M,e]
 
 
-
-
-
-
-
-
-
-
     }
 }

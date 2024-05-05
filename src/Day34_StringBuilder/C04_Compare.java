@@ -13,7 +13,7 @@ public class C04_Compare {
         // System.out.println(str == sb1); // Farkli data turundeki non-primitive'ler icin == KULLANILAMAZ
 
 
-        // equals
+
 
         System.out.println(sb1.equals(sb2)); // false,  Metin ayni da olsa FALSE verir
         System.out.println(str.equals(sb1)); // false, Java CTE vermez ama sonuc hep FALSE olur

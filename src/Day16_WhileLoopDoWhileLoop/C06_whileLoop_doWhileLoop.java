@@ -4,32 +4,45 @@ import java.util.Scanner;
 
 public class C06_whileLoop_doWhileLoop {
     public static void main(String[] args) {
-        //- Kullanicidan baslangic ve bitis harflerini alip,
-        // o harfleri ve aralarindaki harfleri yazdirin.
 
+        // Soru 1- Kullanicidan baslangic ve bitis harflerini alip,
+        //         o harfleri ve aralarindaki harfleri yazdirin.
+        //         kullanici bir harf harf degil
+        //         bir metin girerse uyari verip, yeniden harf girmesini isteyin
+        //         kullanici harf girinceye kadar tekrar isteyin
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println(" Baslangic harifini girin ");
 
-        char baslangicHarfi= scanner.next().charAt(0);
-        System.out.println(" bitis harfi girin");
-        char bitisHarfi=scanner.next().charAt(0);
+        String baslangicStr;
+        char baslangic='a';
 
-        do {
+        do{
+            System.out.println("Lutfen baslangic harfini giriniz...");
+            baslangicStr = scanner.nextLine();
 
-                System.out.println(baslangicHarfi+ " ");
-                baslangicHarfi++;
+            if (baslangicStr.length() == 1){
+
+                baslangic = baslangicStr.charAt(0);
+
+            }else{
+                System.out.println("Sadece 1 harf girmelisiniz..");
+            }
+
+        }while(baslangicStr.length() != 1);
 
 
-        }while ((baslangicHarfi>=bitisHarfi));
+
+        System.out.println("Lutfen bitis harfini giriniz...");
+        char bitis = scanner.next().charAt(0);
 
 
-        // do-While döngüsünü sart uymasa bile kodu en azindan bi kere calistirmak icin
-        // kullaniyoruz
-
-
-
+        do{
+            System.out.print(baslangic + " ");
+            baslangic++;
+        }while (baslangic <= bitis);
 
 
     }
+
+
 }

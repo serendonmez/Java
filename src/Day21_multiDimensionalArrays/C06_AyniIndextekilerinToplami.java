@@ -31,12 +31,6 @@ public class C06_AyniIndextekilerinToplami {
 
 
 
-
-
-
-
-
-
     }
 
 

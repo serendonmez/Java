@@ -51,12 +51,6 @@ public class C02_FibonacciSerisi {
 
 
 
-
-
-
-
-
-
         return fibonacci;
     }
 

@@ -14,7 +14,7 @@ public class C03_WrapperClasses {
 
 
 
-        char chr1 = 'a' ; // burada char primitiv oldugu icin hazir method u ypktur
+        char chr1 = 'a' ; //char primitiv oldugu icin hazir method u ypktur
 
         Character chr2 = 'b';
 

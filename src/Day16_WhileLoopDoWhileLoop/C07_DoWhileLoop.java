@@ -2,7 +2,7 @@ package Day16_WhileLoopDoWhileLoop;
 
 import java.util.Scanner;
 
-public class C07_ {
+public class C07_DoWhileLoop {
     public static void main(String[] args) {
         //Soru 3- Kullanicidan bir pozitif sayi isteyin,
         // sayının tam kare olup olmadığını bulunuz,

@@ -27,8 +27,5 @@ public class C06_ArraysEquals {
         System.out.println(Arrays.equals(arr5,arr6)); //true
 
 
-
-
-
     }
 }

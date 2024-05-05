@@ -23,9 +23,7 @@ public class C01_FaktoryelSorusu {
         int faktoriyel = 1;
 
 
-        System.out.print(sayi+"!= "); // bu taslaktaki gibi yazdirmak icin
-                                        //kullanicinin girdigi degerin yaninda
-                                   // olmasi gereke ifadeleri kendim yaziyorum.
+        System.out.print(sayi+"!= ");
 
         
 

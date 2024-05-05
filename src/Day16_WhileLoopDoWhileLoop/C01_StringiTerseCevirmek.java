@@ -14,9 +14,6 @@ public class C01_StringiTerseCevirmek {
     }
 
 
-
-
-
     public static String metniTersCevir(String metin){
         // Ali topu tut
 
@@ -33,12 +30,6 @@ public class C01_StringiTerseCevirmek {
         return tersMetin; // requirement :metni terse ceviren bi codu döndür.
         // bu yüzden yazdirmayip return yapmamiz yeterli , ancak yazdirip  deneriz
     }
-
-
-
-
-
-
 
 
 

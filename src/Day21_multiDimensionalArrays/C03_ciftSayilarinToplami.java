@@ -24,8 +24,5 @@ public class C03_ciftSayilarinToplami {
         System.out.println(toplam);
 
 
-
-
-
     }
 }

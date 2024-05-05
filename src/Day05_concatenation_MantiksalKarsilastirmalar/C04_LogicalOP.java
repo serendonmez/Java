@@ -11,10 +11,10 @@ public class C04_LogicalOP  {
 
         c= a>=b && 3*a<4*b;
         System.out.println(c); // 10 > 15 false && 3*10 =30 < 60 true
-                                // biri false ; false yazdirir.
+                                // biri false ise; false yazdirir.
 
         int d = 15;
-        System.out.println( 15 >=d++ ); // c nin degerin i 1 artiir. ( ++ d den sonra arttrmayi sonra yapariz.
+        System.out.println( 15 >=d++ ); // c nin degerini 1 artiir. ( ++ d den sonra arttrmayi sonra yapariz.
                                         //  önce islem yap
                                         //islem + lar yokmus gibi yapilir.
                                         //15 >= 15 true

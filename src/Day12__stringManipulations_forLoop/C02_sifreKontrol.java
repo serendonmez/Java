@@ -103,10 +103,10 @@ public class C02_sifreKontrol {
 
 
         bagimsiz if cümleleri kullanirsak
-        + sifredeki tüm hatalri yazdirabilriz
-        -bagimsiz if cümleleri codun kendielri disindaki ksiimlarla ilgilenmez
+        + sifredeki tüm hatalari yazdirabiliriz
+        -bagimsiz if cümleleri codun kendielri disindaki kisimlarla ilgilenmez
         yanisifrenin basarili oldugunu yazdirabilmek icin ekstra bir kontrol
-        meanizmasi kullanmayiz
+        mekanizmasi kullanmayiz
          */
 
 

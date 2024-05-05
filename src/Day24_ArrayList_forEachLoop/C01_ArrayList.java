@@ -16,20 +16,13 @@ public class C01_ArrayList {
             ,"Ilgar","Joanna","Ali Cabbar"));
 
 
+
+
             int karakterSayisi=0;
 
        for (int i = 0; i < isimler.size() ; i++) {
                    karakterSayisi+= isimler.get(i).length();
        }   System.out.println(karakterSayisi);
-
-
-
-
-
-
-
-
-
 
 
 

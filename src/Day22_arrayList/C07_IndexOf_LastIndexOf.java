@@ -36,8 +36,5 @@ public class C07_IndexOf_LastIndexOf {
         System.out.println(harfler.indexOf("k")); // -1
 
 
-
-
-
     }
 }

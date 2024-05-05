@@ -7,7 +7,7 @@ public class C00_ {
         System.out.println( "a nin degerini nir artir " + ++a); //  a =11
 
         int b = a++ ; // b = 12 diyemiyoruz.  cünkü ayni satirda iki islem var
-                        // ->b yi a ya assign et , -> a nin degerin i1 artir.
+                        // ->b yi a ya assign et , -> a nin degerini 1 artir.
                         // postincrement oldugu icin ilk olarak b ye a yi assign ederiz.
                         //sonra a nin degerini 1 artiriz. bu durumda b = 11 a =12 olur
         System.out.println(" b nin degeri " + b); // b :11

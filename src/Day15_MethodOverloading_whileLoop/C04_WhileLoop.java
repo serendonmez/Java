@@ -18,12 +18,6 @@ public class C04_WhileLoop {
 
         Scanner scanner = new Scanner(System.in);
 
-        // sayi istemeyi her seferinde yapacagimiz icin loopun icinde sorariz.
-
-
-
-
-
         int sayi=0;
         int toplam =0;
 
@@ -35,19 +29,10 @@ public class C04_WhileLoop {
             // döngüdeki sart saglandikca  kullanicidan sayi ister.
             toplam+=sayi;
 
-
-
-
-
-
         }
 
 
          System.out.println("girdiginiz sayilarin toplami:"+ toplam);
-
-
-
-
 
     }
 }

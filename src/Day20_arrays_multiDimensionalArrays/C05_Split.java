@@ -28,16 +28,5 @@ public class C05_Split {
         System.out.println(Arrays.toString(str.split("")));//
 
 
-
-
-
-
-
-
-
-
-
-
-
     }
 }

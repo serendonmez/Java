@@ -10,7 +10,7 @@ public class C02_Swap {
 
         System.out.println(" Lütfen ikinci sayiyi giriniz.");
         int sayi2 = scanner.nextInt() ;
-         int temp = 0 ; // gecici variable kendimiz olusturduk.
+         int temp = 0 ;
 
          temp= sayi1 ;
          sayi1 = sayi2 ;

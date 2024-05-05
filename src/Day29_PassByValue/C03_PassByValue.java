@@ -6,8 +6,7 @@ public class C03_PassByValue {
 
     @Override
     public String toString() {
-        return "C03_PassByValue{" +
-                "}";
+        return "C03_PassByValue{ }";
     }
 
     public static void main(String[] args) {
@@ -21,14 +20,14 @@ public class C03_PassByValue {
         sayi = 30;
 
         System.out.println(sayi);
-        System.out.println("WWWWWWWWWWW");
+
 
 
 
        C03_PassByValue obj = new C03_PassByValue( 75);
         System.out.println(obj.sayi);
 
-        System.out.println("222222222222");
+
         System.out.println(sayi);
 
 
@@ -56,7 +55,7 @@ public class C03_PassByValue {
 
 
 
-    } // parametreli bi cons olusturduk , varsa classta parametresiz obje calissin diye
+    } // parametresiz bi cons olusturduk , varsa classta parametresiz obje calissin diye
 
 
 

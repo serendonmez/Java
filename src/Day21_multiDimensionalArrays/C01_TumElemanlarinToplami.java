@@ -2,7 +2,7 @@ package Day21_multiDimensionalArrays;
 
 import java.util.Arrays;
 
-public class C01_ {
+public class C01_TumElemanlarinToplami {
     // icinde array bulunan arrayler ; multidimensional
 
     public static void main(String[] args) {

@@ -12,15 +12,9 @@ public class C06_RakamlarToplaminiBulma {
         System.out.println( " Lütfen 3 basamakli bi tam sayi giriniz");
 
         int girilenSayi = scanner.nextInt();
-        // rakamlari tek tek bulmaliyim
-        //birler basamagini modulus ile buluruz.sayi % 10 ; 3
-        //3 ü blduik artik ona ihtiyacimiz yok. 123 /10 ; 12,3 java bunu 12 diye yazdirir,
-        //sayi =12 ; sonra yine modulus le 2 yi buldururz. 12%10 ; 2
-        // 2 yi bulduk, artik ona ihtiyac yok 12/10=1,2 java bunu 1 diye yazdirir.
-        //rakamlartoplami 3+2+1 diye yazdirirz.
 
 
-        int sayi = girilenSayi ; // soruya baslarken ihtiyac olunan atamalari yap.
+        int sayi = girilenSayi ;
         int birlerBasamagi = 0 ;  // genelde kullanicidan alinan sayiyi degistirmek yerine
                                  // onu baska variable a atayiiyp onu degistirirz
                                 //  kullanicidan alinann sayi sabit kalir

@@ -32,16 +32,5 @@ public class C06_indexOf {
         // 7. index ve sonrasindaki ilk t nin index ini verir. --->10
 
 
-
-
-
-
-
-
-
-
-
-
-
     }
 }

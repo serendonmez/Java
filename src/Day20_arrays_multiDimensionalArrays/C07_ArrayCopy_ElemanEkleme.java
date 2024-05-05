@@ -30,10 +30,6 @@ public class C07_ArrayCopy_ElemanEkleme {
         }
 
 
-
-
-
-
         }
 
 

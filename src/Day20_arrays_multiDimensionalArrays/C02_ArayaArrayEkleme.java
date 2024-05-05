@@ -38,10 +38,6 @@ public class C02_ArayaArrayEkleme {
 
 
 
-
-
-
-
         }
 
 

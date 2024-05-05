@@ -16,9 +16,6 @@ public class C02_Soru {
 
 
 
-    //classin icinde main methodun disinda olmali
-    // eger yazdrimali isek void kullaniriz!!!!
-    // sadece deger tama olsaydi?
 
     public static void buyukOlaniYazdir(int sayi1, int sayi2){
 
@@ -27,7 +24,6 @@ public class C02_Soru {
         } else if (sayi2>sayi1) {
             System.out.println(("sayilardan büyük olan: " + sayi2));
 
-          //  }else ()
 
         }
     }

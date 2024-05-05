@@ -27,10 +27,5 @@ public class C08_ListMEthodlari {
 
         System.out.println(list.contains(7)); // false
 
-
-
-
-
-
     }
 }

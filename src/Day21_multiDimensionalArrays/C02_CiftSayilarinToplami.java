@@ -1,6 +1,6 @@
 package Day21_multiDimensionalArrays;
 
-public class C02_ {
+public class C02_CiftSayilarinToplami {
 
     public static void main(String[] args) {
         // verilen iki katli int arr deki

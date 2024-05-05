@@ -18,7 +18,7 @@ public class C66 {
         // 123% 10 kalan 3 tür birler basamagi bu sekilde elde edilir. birler basamagi=3
         // 3 ü bulduktan sonra 123 /10 =12,3 -->12 yazdirip bunun modulus ini aliriz
         // 12%10 -- > kalan 2 birler basamagi= 2,
-        // sonra 12/10 =1,2 = java 1 diye yazdirir. birlerBasamagi=1
+        // sonra 12/10 =1,2 = java 1 olarak yazdirir. birlerBasamagi=1
         //
         // sayi = 123
         int sayi =girilenSayi ;
